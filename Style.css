@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+   
+
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://th.bing.com/th/id/OIP.P-0Nd5zyH4VMpKERVuvQYgHaEK?w=266&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+    background-size: cover;
+    background-position: 60% 70%;
+
+}
+#overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(rgb(0, 17, 255), green, blue, alpha);
+}
+#text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    color: #fff;
+    padding: 0 10vw;
+   
+}
+#textright{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#textright p{
+    font-size: 12px;
+    width: 40%;
+    
+}
+#textright i{
+    color: #fff;
+}
+#text h1{
+    font-weight: 500;
+    font-size: 6vw;
+}
+
+#bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    background-color: blueviolet;
+    
+}
+#bone{
+    padding: 30px;
+    width: 25%;
+    min-height: inherit;
+    background-color: #fff;
+}
+#bone p{
+font-size: 12px;
+}
+#btwo{
+    width: 25%;
+    min-height: 100vh;
+    background-image: url(https://media.istockphoto.com/id/1066533618/photo/adorable-little-boy-playing-at-rainy-day.jpg?s=612x612&w=0&k=20&c=eBXeb-bKNo4Io6EL-6tlGuZMeQRzDSrS-C97QZcp23I=);
+    background-size: cover;
+    background-position: 70% 80%;
+    
+}
+#bthree{
+    width: 20%;
+    height: 100%;
+    background-color: green
+}
+#bthreetop{
+    width: 100%;
+   min-height:  20vh;
+    padding: 20px;
+    color: #fff;
+    background-color: orangered;
+}
+#bthreetop p{
+    margin-top: 10px;
+    font-size: 10pz;
+
+}
+#bthreebottom{
+        width: 100%;
+        min-height: 20vh;
+        background-image: url(https://media.istockphoto.com/id/936457268/photo/woman-looking-at-tea-plantations.webp?b=1&s=170667a&w=0&k=20&c=aedrqWxpzYIrtA1znjaE1tAXapL7SN3Sw6q1x6rMcO8=);
+        background-position: 70% 80%;
+}
+#bfour{
+    padding: 30px;
+    width: 30%;
+    min-height: inherit;
+    background-color: #444;
+    color: #fff;
+}
+
+.notf{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.notf #photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+.notf p{
+    width: 86%;
+    font-size: 12px;
+}
+
+@media(max-width: 500px){
+    #overlay #text{
+
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 10vw;
+
+    }
+    #bottom{
+        min-height: 20vh;
+
+    }
+    #overlay #text #textright{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    #overlay #text #textright p{
+        width: initial;
+        margin-top: 20px;
+    }
+    #overlay #text #textright #icon{
+        margin-top: 30px;
+    }
+
+    #bottom{
+        flex-direction: column;
+    }
+
+    #bone{
+        width: 100%;
+    }
+    #btwo{
+        width: 100%;
+    }
+    #bthree{
+        width: 100%;
+    }
+    #four{
+        width: 100%;
+    }
+}
